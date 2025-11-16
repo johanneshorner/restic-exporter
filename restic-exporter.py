@@ -311,6 +311,7 @@ class ResticCollector(object):
             "-p",
             self.password_file,
             "--no-lock",
+            "--with-cache"
             "check",
         ]
 
